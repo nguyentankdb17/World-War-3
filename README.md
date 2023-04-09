@@ -1,6 +1,6 @@
 # -----------------------> World-War-3<----------------------
 
-DESCRIPTION :
+TASK :
 - Your country is being attacked by helicopters in WW3.
 - Your task is to use the flytank to destroy the as much as possible helicopters in 3 minutes.
 - In 3 minutes, if your flytank touch the helicopter or the helicopter's bullet 5 times the game will be over.
