@@ -13,39 +13,65 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Resource Files\image">
+      <UniqueIdentifier>{195535a8-7df7-4481-bdc4-fe016396b8fd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CommonFunc.h">
+    <ClInclude Include="src\BasicObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="BaseObject.h">
+    <ClInclude Include="src\Bullet.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="MainObject.h">
+    <ClInclude Include="src\General.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Threats.h">
+    <ClInclude Include="src\MainObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Threats.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="src\BasicObject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BaseObject.cpp">
+    <ClCompile Include="src\Bullet.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MainObject.cpp">
+    <ClCompile Include="src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Bullet.h">
-      <Filter>Header Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Bullet.cpp">
+    <ClCompile Include="src\MainObject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Threats.cpp">
+    <ClCompile Include="src\Threats.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="image\background.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="image\helicopter_threat.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="image\mainobject_bullet.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="image\plane_threat.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="image\tank.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="image\tank_sprite.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
+    <Image Include="image\threat_bullet.png">
+      <Filter>Resource Files\image</Filter>
+    </Image>
   </ItemGroup>
 </Project>

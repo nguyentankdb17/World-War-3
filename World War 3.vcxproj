@@ -71,7 +71,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\Users\ADM\OneDrive\Documents\LTNC\World War 3\LibSdl2\SDL2-2.0.8\include;C:\Users\ADM\OneDrive\Documents\LTNC\World War 3\LibSdl2\SDL2_ttf-2.0.14\include;C:\Users\ADM\OneDrive\Documents\LTNC\World War 3\LibSdl2\SDL2_mixer-2.0.2\include;C:\Users\ADM\OneDrive\Documents\LTNC\World War 3\LibSdl2\SDL2_image-2.0.3\include;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Users\ADM\OneDrive\Documents\LTNC\World War 3\LibSdl2\SDL2_ttf-2.20.2\include;C:\Users\ADM\OneDrive\Documents\LTNC\World War 3\LibSdl2\SDL2-2.0.8\include;C:\Users\ADM\OneDrive\Documents\LTNC\World War 3\LibSdl2\SDL2_mixer-2.0.2\include;C:\Users\ADM\OneDrive\Documents\LTNC\World War 3\LibSdl2\SDL2_image-2.0.3\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -111,7 +111,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\ADM\OneDrive\Documents\LTNC\World War 3\LibSdl2\SDL2-2.0.8\lib\x64;C:\Users\ADM\OneDrive\Documents\LTNC\World War 3\LibSdl2\SDL2_ttf-2.0.14\lib\x64;C:\Users\ADM\OneDrive\Documents\LTNC\World War 3\LibSdl2\SDL2_mixer-2.0.2\lib\x64;C:\Users\ADM\OneDrive\Documents\LTNC\World War 3\LibSdl2\SDL2_image-2.0.3\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Users\ADM\OneDrive\Documents\LTNC\World War 3\LibSdl2\SDL2_ttf-2.20.2\lib\x64;C:\Users\ADM\OneDrive\Documents\LTNC\World War 3\LibSdl2\SDL2-2.0.8\lib\x64;C:\Users\ADM\OneDrive\Documents\LTNC\World War 3\LibSdl2\SDL2_mixer-2.0.2\lib\x64;C:\Users\ADM\OneDrive\Documents\LTNC\World War 3\LibSdl2\SDL2_image-2.0.3\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;SDL2_mixer.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -132,24 +132,29 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="BaseObject.h" />
-    <ClInclude Include="CommonFunc.h" />
-    <ClInclude Include="MainObject.h" />
-    <ClInclude Include="Threats.h" />
+    <ClInclude Include="src\BasicObject.h" />
+    <ClInclude Include="src\Bullet.h" />
+    <ClInclude Include="src\General.h" />
+    <ClInclude Include="src\MainObject.h" />
+    <ClInclude Include="src\Threats.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BaseObject.cpp">
+    <ClCompile Include="src\BasicObject.cpp" />
+    <ClCompile Include="src\Bullet.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\MainObject.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Bullet.cpp" />
-    <ClCompile Include="Bullet.h" />
-    <ClCompile Include="main.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="MainObject.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Threats.cpp" />
+    <ClCompile Include="src\Threats.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="image\background.png" />
+    <Image Include="image\helicopter_threat.png" />
+    <Image Include="image\mainobject_bullet.png" />
+    <Image Include="image\plane_threat.png" />
+    <Image Include="image\tank.png" />
+    <Image Include="image\tank_sprite.png" />
+    <Image Include="image\threat_bullet.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
