@@ -1,14 +1,15 @@
-# --------------------------> World-War-3<-------------------------
+# -----------------------> World-War-3<----------------------
 
-- #DESCRIPTION :
+DESCRIPTION :
 - Your country is being attacked by helicopters in WW3.
-- Your task is to use the flytank to destroy all the helicopters in order that you can save your contry.
+- Your task is to use the flytank to destroy the as much as possible helicopters in 3 minutes.
+- In 3 minutes, if your flytank touch the helicopter or the helicopter's bullet 5 times the game will be over.
 
-- #HOW TO PLAY :
+HOW TO PLAY :
 - Use button UP,RIGHT,LEFT and DOWN to move the flytank to avoid the helicopter's bullets.
 - Use button SPACE to shoot.
 
--  #REQUIRED :
-- Microsoft Visual Studio // Code::Block
-- SDL_Library { SDL,SDL_image,SDL_ttf,SDL_mixer } (Download in :https://github.com/libsdl-org/SDL/releases/tag/release-2.26.4)
+REQUIRED :
+- Microsoft Visual Studio // CodeBlocks
+- SDL_Library { SDL,SDL_image,SDL_ttf,SDL_mixer } (Download at :https://github.com/libsdl-org/SDL/releases/tag/release-2.26.4)
 
