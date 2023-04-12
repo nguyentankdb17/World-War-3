@@ -1,8 +1,8 @@
 ## -----------------------> WORLD-WAR-3 <----------------------
 
 ## TASK :
-- Your country is being attacked by helicopters in WW3.
-- Your task is to use the flytank to destroy as much helicopters as possible in 3 minutes.
+- Your country is being attacked by helicopters,planes and tanks in WW3.
+- Your task is to use the flytank to destroy as much threats as possible in 3 minutes.
 - In 3 minutes, if your flytank hit the helicopter or the helicopter's bullet 3 times the game will be over.
 
 ## REQUIRED :
@@ -16,7 +16,7 @@
 - Use button SPACE to shoot.
 
 ## GAME FORMAT
-- When your flytank's bullet hit the threat the threat will be destroyed and your game score bonus 1
+- When your flytank's bullet hit the threat, the threat will be destroyed and your game score bonus 1
 - When your flytank hit the threat or the threat's bullet, your flytank's lives minus 1
 - Game over when your flytank's lives remain 0
 
