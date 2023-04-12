@@ -20,5 +20,5 @@
 - When your flytank hit the threat or the threat's bullet, your flytank's lives minus 1
 - Game over when your flytank's lives remain 0
 
-##CONTACT
+## CONTACT
 - Any questions asked by sending email to nguyentankdb17@gmail.com
